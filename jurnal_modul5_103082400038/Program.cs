@@ -1,8 +1,5 @@
 ﻿using System;
-<<<<<<< HEAD
-=======
 using System.Collections.Generic;
->>>>>>> implementasi-generic-class
 
 class Penjumlahan
 {
@@ -15,8 +12,6 @@ class Penjumlahan
     }
 }
 
-<<<<<<< HEAD
-=======
 class SimpleDataBase<T>
 {
     private List<T> storedData;
@@ -43,19 +38,12 @@ class SimpleDataBase<T>
     }
 }
 
->>>>>>> implementasi-generic-class
 class Program
 {
     static void Main(string[] args)
     {
-<<<<<<< HEAD
-        Penjumlahan pj = new Penjumlahan();
-
-=======
-
         Penjumlahan pj = new Penjumlahan();
         Console.WriteLine("=== Penjumlahan ===");
->>>>>>> implementasi-generic-class
         Console.Write("Masukkan angka pertama: ");
         int a = int.Parse(Console.ReadLine());
 
@@ -68,8 +56,6 @@ class Program
         var hasil = pj.JumlahTigaAngka(a, b, c);
 
         Console.WriteLine($"{a} + {b} + {c} = {hasil}");
-<<<<<<< HEAD
-=======
 
         Console.WriteLine("");
 
@@ -90,6 +76,5 @@ class Program
 
         Console.WriteLine("\nData yang tersimpan:");
         db.PrintAllData();
->>>>>>> implementasi-generic-class
     }
 }
